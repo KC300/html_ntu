@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    color: rgb(65, 106, 71);
+}
+h2 {
+    text-align: center;
+}
+.sidebody {
+    float: left;
+    margin-right: 30px;
+}
+.sidebar {
+    float: left;
+}
+.week {
+    text-align: center;
+    height: 80px;
+    width: 120px;
+    background-color: rgb(247, 202, 201);
+}
+.content {
+    text-align: left;
+    width: 300px;
+    background-color: rgb(191, 209, 229);
+}
+.class_content {
+    width: 300px;
+    background-color: rgb(191, 209, 229);
+}
+.class_pdf {
+    text-align: center;
+    width: 180px;
+    background-color: rgb(214, 233, 194);
+}
+.pdf {
+    text-align: left;
+    width: 180px;
+    background-color: rgb(214, 233, 194);
+}
+.Kevin {
+    margin-bottom: 60px;
+}
+.intro {
+    text-align: left;
+    margin-left: 30px;
+}
