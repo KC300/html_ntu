@@ -1,0 +1,138 @@
+@import reset.css;
+
+.body{
+    overflow: hidden;
+    margin: 0;
+}
+
+.header {
+    overflow: hidden;
+    margin: 0;   
+    background:  #2a2e31;
+}
+
+.darkbg{
+    background:  #2a2e31;
+    
+}
+
+.menu {
+    padding: 10px;
+    color: ghostwhite;
+}
+
+.menu sub-menu2{
+    padding: 20px;
+    color: ghostwhite;
+}
+
+.menu a{
+    padding: 20px;
+    color: ghostwhite;
+}
+
+.main{
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #c2ddf1;
+    margin: 0;
+}
+
+.header li{
+    display: inline-block;
+    margin-left: 1em;
+}
+.header li:hover .sub-menu{
+    display:inline-block;
+}
+
+
+.brightbg{
+    margin: 8%;   
+}
+.icon{
+    display: inline-block;
+/*    float:left;*/
+    margin-left: 1em;
+}
+
+.slideshow {
+	width: 1100px;
+    height: 300px;
+    overflow: hidden;
+    display: inline-block;
+	margin-left: 0px;
+    padding: 0px;
+}
+
+.slide{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+    margin:10;
+    overflow: hidden;/*important*/
+}
+
+.showbox{
+    margin: 0px;
+}
+
+.footerbg {
+    overflow: hidden;
+    float: left:
+    width: auto;
+    height: 50px;
+    margin: 0;
+    border: 0;
+    background:  #2a2e31;
+}
+
+.area {
+    background:  #2a2e31;
+    overflow: hidden;
+    position:fixed;
+    list-style: none;
+    display:none;
+/*    float: left;*/
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+ 
+.area a{
+    line-height:5px;
+    border-bottom:10px;
+    padding: 1px;
+}
+
+.type{
+    background:  #2a2e31;
+    overflow: hidden;
+    position: fixed;
+    list-style: none;
+    display: none;
+/*    float: left;*/
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.type a {
+    border-bottom:10px;
+    padding: 1px;
+}
+
+.text {
+    width: 300px;
+    height: 240px;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    background-color: #c2ddf1;
+    padding: 3%;
+    line-height:130%;
+}
